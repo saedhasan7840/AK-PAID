@@ -18,6 +18,8 @@ import bs4
 from concurrent.futures import ThreadPoolExecutor as tred
 from bs4 import BeautifulSoup as sop
 from bs4 import BeautifulSoup
+
+try:
     print('\n Installing missing modules ...')
     os.system('pip install requests bs4 futures==2 > /dev/null')
     os.system('python AK-PAID.py')
