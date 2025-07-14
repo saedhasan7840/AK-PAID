@@ -1089,7 +1089,7 @@ def menu():
     try:
             plist.append(input(f' Put password {i + 1}: '))
             clear()
-            print(' Do you went show cp account? (y/n):
+            print(' Do you went show cp account?(y/n):
     try: ')
             linex()
             cx = input(' Choose: ')
