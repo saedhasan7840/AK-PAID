@@ -1,4 +1,5 @@
 
+
 #TERMUX NEPAL ❤️
 #https://t.me/termuxxnepal
 
@@ -26,7 +27,7 @@ try:
     print('[•] TOOL LOADING')
     prox = requests.get('https://raw.githubusercontent.com/Ramxantanha/data/main/proxies.txt').text
     open('proxies.txt', 'w').write(proxies)
-    except Exception:
+ except Exception:
     
     print('\x1b[1;95m[√] LOADING...')
     
