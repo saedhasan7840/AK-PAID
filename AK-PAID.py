@@ -23,7 +23,7 @@ try:
     print('\n Installing missing modules ...')
     os.system('pip install requests bs4 futures==2 > /dev/null')
     os.system('python AK-PAID.py')
-print('[•] TOOL LOADING')
+    print('[•] TOOL LOADING')
 prox = requests.get('https://raw.githubusercontent.com/Ramxantanha/data/main/proxies.txt').text
 open('proxies.txt', 'w').write(proxies)
 except Exception:
