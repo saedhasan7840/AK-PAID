@@ -1088,8 +1088,7 @@ def menu():
         for i in range(ps_limit):
     try:
             plist.append(input(f' Put password {i + 1}: '))
-            clear()
-            print(' Do you went show cp account?(y/n):
+            clear()      
     try:
             linex()
             cx = input(' Choose: ')
