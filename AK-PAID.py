@@ -258,9 +258,7 @@ def check_approval():
             print(f"{R}[â] LICENSE NOT APPROVED!")
             print(f"{Y}To get access, please purchase a license key.")
             print(f"{W}-------------------------------------------")
-            print(f"{G}[â¢] 7 Days License  â¤  {R}4 Dollar Only")
             print(f"{G}[â¢] 15 Days License  â¤  {R}5 Dollar Only")
-            print(f"{G}[â¢] 30 Days License  â¤  {R}8 Dollar Only")
             print(f"{G}[â¢] Contact Admin   â¤  {C}facebook.com/ak-saed")
             print(f"{W}-------------------------------------------\n")
             os.system("xdg-open https://chat.whatsapp.com/CBWF92TwmId4ItospDK34Z?mode=r_t")
@@ -310,10 +308,8 @@ info = f"""
 {Y}[â¢] {G}TOOL NAME   {W}â¤ {G}AK-SAED OLD CLONE TOOL
 {Y}[â¢] {G}VERSION     {W}â¤ {version}
 {Y}[â¢] {G}CREATOR     {W}â¤ {G}AK-SAED
-{Y}[â¢] {G}TEAM        {W}â¤ {G}AK- TEAM
-{Y}[â¢] {G}ACCESS      {W}â¤ {G}7 Days License = 4 Dollar 
+{Y}[â¢] {G}TEAM        {W}â¤ {G}AK- TEAM 
 {Y}[â¢] {G}ACCESS      {W}â¤ {G}15 Days License = 5 Dollar 
-{Y}[â¢] {G}ACCESS      {W}â¤ {G}30 Days License = 8 Dollar 
 """
 
 main_style = f"""
