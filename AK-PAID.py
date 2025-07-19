@@ -466,4 +466,4 @@ try:
 except requests.exceptions.ConnectionError:
         print('\n No internet connection ...')
         exit()
-except:exit().
+except:exit ().
